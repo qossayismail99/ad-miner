@@ -239,7 +239,7 @@ a:link {
 
 .title-section{
     position: absolute;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     width: fit-content;
     transition: transform .2s; /* Animation */
 }

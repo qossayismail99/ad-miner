@@ -89,23 +89,23 @@ function display_all_hexagons(dico_entry) {
   );
 
   var title_permissions = `<a data-bs-toggle="modal" href="#cardsModal" onclick=switchCards('permission')>
-    <img src="../icons/main_circle/permissions.svg" class="title-section shadow" style="top:15%; left: 40%""/>
+    <img src="../icons/main_circle/permissions.png" class="title-section shadow" style="top:15%; left: 40%; width:19%""/>
     </a>`;
   $('.main_circle').append(title_permissions);
 
   var title_passwords = `<a data-bs-toggle="modal" href="#cardsModal" onclick=switchCards('passwords')>
-        <img src="../icons/main_circle/passwords.svg" class="title-section shadow" style="top:62%; left: 10%""/>
+        <img src="../icons/main_circle/passwords.png" class="title-section shadow" style="top:62%; left: 10%; width:19%""/>
     </a>`;
   $('.main_circle').append(title_passwords);
 
   var title_kerberos = `<a data-bs-toggle="modal" href="#cardsModal" onclick=switchCards('kerberos')>
-        <img src="../icons/main_circle/kerberos.svg" class="title-section shadow" style="top:62%; left: 70%;""/>
+        <img src="../icons/main_circle/kerberos.png" class="title-section shadow" style="top:52%; left: 57%; width:19%""/>
     </a>`;
   $('.main_circle').append(title_kerberos);
 
 
   var title_misc = `<a data-bs-toggle="modal" href="#cardsModal" onclick=switchCards('misc')>
-        <img src="../icons/main_circle/misc.svg" class="title-section shadow" style="top:80%; left: 45%;""/>
+        <img src="../icons/main_circle/misc.png" class="title-section shadow" style="top:80%; left: 45%;width:19%""/>
     </a>`;
   $('.main_circle').append(title_misc);
 
