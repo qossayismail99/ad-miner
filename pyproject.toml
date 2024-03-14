@@ -8,7 +8,7 @@ dev-dependencies = { }
 
   [tool.poetry.dependencies]
   python = ">=3.9"
-  neo4j = "==5.6.0"
+  neo4j = "==5.1.0"
   numpy = "==1.24.2"
   pytz = "==2022.7.1"
   tqdm = "==4.64.1"
